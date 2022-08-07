@@ -17,7 +17,7 @@ int main()
    if (ch == 'r')    //FOR RIKSHAWS' ENTRANCES//
    {
       r = r + 1;
-      total = total + 100;
+      total = total + 100;    //IT IS THE FEE FOR A RIKSHAW//
       record = record + 1;
    }
    else if (ch == 'R')     //FOR RIKSHAWS' LEAVINGS//
@@ -28,18 +28,18 @@ int main()
    else if (ch == 'c')     //FOR CARS' ENTRANCES//
    {
       c = c + 1;
-      total = total + 200;
+      total = total + 200;    //IT IS THE FEE FOR A CAR//
       record = record +1;
    }
    else if (ch == 'C')     //FOR CARS' LEAVINGS//
    {
-      c = c + 1;
+      c = c - 1;
       record = record - 1;
    }
    else if (ch == 'b')     //FOR BUSES' ENTRANCES//
    {
       b = b + 1;
-      total = total + 300;
+      total = total + 300;    //IT IS THE FEE FOR A BUS//
       record = record +1;
    }
    else if (ch == 'B')     //FOR BUSES' LEAVINGS//
